@@ -1,0 +1,2684 @@
+.body {
+  overflow-x: hidden;
+}
+
+/* Top Bar Strats here */
+
+.top-bar {
+  /* background-color: #bca2d1; */
+  background-color: #f4643c !important;
+  height: 35px;
+}
+
+.topbar-text {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.shop-now {
+  /* background-color: #bca2d1; */
+  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+/* Top Bar Ends Here */
+
+/* Navbar starts here */
+.nav-bar {
+  height: 70px;
+}
+
+.khaadi-logo {
+  cursor: pointer;
+
+}
+
+.sale-li {
+  font-size: 13.5px;
+  font-weight: 400;
+  gap: 30px;
+}
+
+.sale-1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sale-2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.sale-3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.sale-4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.sale-5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.truck-icon {
+  width: 30px;
+  cursor: pointer;
+
+}
+
+.bag-icon {
+  width: 20px;
+  cursor: pointer;
+
+}
+
+.acc-icon {
+  font-size: 22px;
+  cursor: pointer;
+
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.nav-track-t {
+  font-size: 11px;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: black;
+}
+
+.nav-track-t-span{
+  font-size: 11px;
+  cursor: pointer;
+  text-decoration: none !important;
+
+}
+
+.track-li {
+  margin-top: 10px;
+}
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidebar */
+  display: none;
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  display: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+  display: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  display: none;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 0px 20px;
+  border: none;
+  display: none;
+  display: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+  display: none;
+
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  /* If you want a transition effect */
+  padding: 0px;
+  display: none;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+/* Navbar ends here */
+
+/* Poster swiper div starts here */
+.poster-slider {
+  cursor: pointer;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper-slide .poster-slider-sm {
+  display: none !important;
+}
+
+/* Poster swiper div ends here */
+
+/* 4pic div starts here */
+.pic-div {
+  justify-content: space-evenly;
+
+}
+
+.pic-div1 {
+  width: 385px;
+  height: 370px;
+  cursor: pointer;
+
+}
+
+.pic-div2 {
+  width: 375px;
+  height: 370px;
+  cursor: pointer;
+
+}
+
+.pic-div3 {
+  width: 385px;
+  height: 370px;
+  cursor: pointer;
+
+}
+
+.pic-div4 {
+  width: 375px;
+  height: 370px;
+  cursor: pointer;
+
+}
+
+/* 4pic div ends here */
+
+/* Fabric div starts here */
+.z-fab-main {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.img-swiper-div {
+  width: 50% !important;
+}
+
+.z {
+  z-index: 3;
+  width: 50%;
+}
+
+
+.fabric-imgBig {
+  clip-path: polygon(0% 15%, 0 0, 15% 0%, 100% 0, 100% 11%, 97% 11%, 100% 15%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+  height: 600px;
+  width: 755px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.fabric-imgBig2 {
+  clip-path: polygon(3% 12%, 0 12%, 0 0, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0 17%);
+  height: 600px;
+  width: 790px !important;
+  cursor: pointer;
+  margin-left: -15px !important;
+}
+
+.fabric-imgBig3 {
+  height: 600px;
+  width: 750px;
+  cursor: pointer;
+}
+
+.fab-Pdiv {
+  width: 100% !important;
+  display: flex;
+}
+
+.fab-head {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  font-size: 24px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.fab-content {
+  position: relative;
+}
+
+.tagonimg {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  width: 35px;
+  position: absolute;
+  bottom: 420px;
+  left: 10px;
+}
+
+.tagonimg2 {
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  width: 52px;
+  position: absolute;
+  bottom: 420px;
+  right: 10px;
+}
+
+.tagonimg1 {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  width: 35px;
+  position: absolute;
+  bottom: 420px;
+  left: 10px;
+}
+
+.tagonimg3 {
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  width: 52px;
+  position: absolute;
+  bottom: 420px;
+  right: 10px;
+}
+
+
+.fabric-img1 {
+  position: relative;
+  display: inline-block;
+  height: 450px;
+  width: 300px;
+}
+
+.fabric-img1 .fabric-imgsm {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+
+}
+
+.fabric-img1:hover .fabric-imgsm {
+  display: inline;
+}
+
+.fabric-size {
+  width: 290px !important;
+  height: 420px !important;
+}
+
+.fab-btn {
+  width: 290px;
+  height: 30px;
+  color: black;
+  border: none;
+  background-color: #f1f1f1 !important;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.fab-btn:hover {
+  background-color: #2d2b2a !important;
+  color: white;
+}
+
+.suit-title {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.suit-disc {
+  font-size: 13.5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.suit-disc1 {
+  font-size: 13.5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.suit-price {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 13.8px;
+}
+
+.fabric-swiper-div {
+  width: 50% !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 90% !important;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 88% !important;
+  object-fit: cover;
+}
+
+
+
+.support-div {
+  height: 90px;
+  background-color: #dfd8d8;
+}
+
+.ship-charge-head {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ship-charge-price {
+  font-size: 12px
+}
+
+.shipping-icon {
+  width: 40px;
+}
+
+.shipping-icon2 {
+  width: 30px;
+  cursor: pointer;
+}
+
+.Subscribe-div {
+  height: 130px;
+}
+
+.bfk {
+  /* height: 10px; */
+  width: 425px;
+}
+
+.bfk-head {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bfk-para {
+  font-size: 14px;
+}
+
+.email-div {
+  margin-left: 3rem !important;
+  margin-top: 1.5rem !important;
+}
+
+.email {
+  border: 2.3px solid rgba(202, 202, 202, 0.812);
+  height: 43px;
+  width: 230px;
+}
+
+.email-btn {
+  height: 43px;
+  width: 120px;
+  margin-left: -10px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.social-icons {
+  width: 20% !important;
+  margin-left: 1rem !important;
+}
+
+.fbicon {
+  width: 35px;
+  border-radius: 5px;
+
+}
+
+.fbicon1 {
+  width: 50px;
+}
+
+.getInTouch {
+  margin-left: -30px;
+}
+
+.git-head {
+  letter-spacing: 2px;
+}
+
+
+.address-head {
+  font-size: 14px;
+  font-weight: 700;
+
+}
+
+.address-para {
+  font-size: 13px;
+  width: 250px;
+}
+
+.c-support {
+  width: 200px;
+}
+
+.S-H {
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.Help {
+  margin-left: 150px;
+}
+
+.checkouts {
+  margin-left: -60px;
+}
+
+.secured-head {
+  font-size: 13px;
+}
+
+.encrypt-icon {
+  width: 120px;
+}
+
+.khaadi-logo-sm {
+  width: 50px;
+  display: flex;
+  justify-content: end;
+  margin-left: 40px;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 35px;
+  margin-left: 10px;
+  width: 600px;
+}
+
+.last-row {
+  height: 100px !important;
+  align-items: center !important;
+}
+
+
+/* Track page css */
+
+.content{
+  margin-top: 20px;
+  height: 250px;
+}
+.track-head{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+}
+.track-desc{
+  font-size: 14px;
+}
+.track-input{
+  margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.track-input-sec{
+  border: 2.3px solid rgba(202, 202, 202, 0.812);
+    height: 50px;
+    width: 550px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.track-btn{
+  height: 50px;
+    width: 130px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+  .body {
+    overflow-x: hidden !important;
+  }
+
+  .top-bar {
+    /* background-color: #bca2d1; */
+    background-color: #f4643c !important;
+    height: 30px;
+  }
+
+  .topbar-text {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Navbar starts here */
+  .khaadi-logo {
+    cursor: pointer;
+    margin-top: 7px;
+    height: 40px;
+  }
+
+  .nav-bar {
+    height: 52px;
+  }
+
+  .sale-li-sidebar {
+    font-size: 13.5px;
+    font-weight: 400;
+    gap: 0px;
+    /* display: none; */
+  }
+
+  .sale-li-sidebar {
+    font-size: 50px;
+    font-weight: 400;
+    /* gap: 30px; */
+    width: 90%;
+    /* display: none; */
+  }
+
+  .sale-1-sidebar:hover {
+    font-weight: bold;
+    /* text-decoration: underline; */
+    cursor: pointer;
+
+    /* display: none; */
+  }
+
+  .sale-2-sidebar:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .sale-3-sidebar:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .sale-4-sidebar:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .sale-5-sidebar:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .sale-li-sidebar {
+    font-size: 13.5px;
+    font-weight: 400;
+    gap: 10px;
+    width: 100%;
+
+    /* display: none; */
+  }
+
+  .nav-div-hidden{
+    display: none;
+  } 
+  .sale-li {
+    font-size: 13.5px;
+    font-weight: 400;
+    gap: 30px;
+    display: none;
+  }
+
+  .sale-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+  }
+
+  .sale-2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+  }
+
+  .sale-3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+  }
+
+  .sale-4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+  }
+
+  .sale-5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
+  }
+
+  .truck-icon-sidebar {
+    width: 30px;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .bag-icon-sidebar {
+    width: 20px;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .acc-icon-sidebar {
+    font-size: 22px;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .nav-track-t-sidebar {
+    font-size: 11px;
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  .truck-icon {
+    width: 30px;
+    cursor: pointer;
+    display: none;
+
+  }
+
+  .bag-icon {
+    width: 20px;
+    cursor: pointer;
+    margin-top: 10px !important;
+    /* display: none; */
+
+  }
+
+  .acc-icon {
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+
+  }
+
+  .nav-track-t {
+    font-size: 11px;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  .acc-ic {
+    display: none;
+  }
+
+  .track-li {
+    margin-left: 400px;
+    margin-top: -45px !important;
+    gap: 10px;
+
+  }
+
+
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    display: block;
+
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: black;
+    display: block;
+
+  }
+
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: -17px;
+    padding: 12px;
+    display: block;
+    background-color: #e8e8e8;
+
+  }
+
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    margin-top: -40px;
+    color: black;
+    padding: 0px 20px;
+    border: none;
+    display: block;
+
+  }
+
+  .openbtn:hover {
+    background-color: white;
+    display: block;
+
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    /* If you want a transition effect */
+    padding: 0px;
+    display: block;
+
+  }
+
+  .nav-tabs {
+    width: 90%;
+    margin-top: -60px;
+    height: 60px;
+    background-color: #e8e8e8;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 15px !important;
+    width: 33%;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .nav-link2{
+    font-size: 15px !important;
+    width: 33%;
+    justify-content: center !important;
+    align-items: center !important;
+    color: black !important;
+    text-decoration: none;
+    border: none;
+    margin-right: 4px;
+    margin-bottom: 7px;
+    background-color: #e8e8e8;
+    /* transition: none;
+    transform: none; */
+  }
+
+  .list-group-item:first-child {
+    width: 100% !important;
+    border-top: none !important;
+    border-right: none !important;
+
+  }
+
+  .list-group-item+.list-group-item {
+    border-right: none;
+  }
+
+
+  .truck-icon-tab {
+    height: 24px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {
+      padding-top: 15px;
+    }
+
+    .sidebar a {
+      font-size: 18px;
+    }
+  }
+
+  /* Navbar ends here */
+
+  /* Poster swiper div starts here */
+
+  .poster-slider {
+    cursor: pointer;
+    height: 100vh !important;
+    width: 500px !important;
+
+  }
+
+  .MQ-500p{
+    height: 600px !important;
+    width: 100% !important;
+  }
+  
+
+  .swiper {
+    width: 100%;
+    height: 600px !important;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .poster-slider-lg {
+    display: block !important;
+  }
+
+  /* Poster swiper div ends here */
+
+  /* 4pic div starts here */
+  .pic-div {
+    justify-content: space-between;
+    gap: 10px !important;
+    /* gap: 20px !important; */
+
+  }
+
+  .pic-div1 {
+    height: 260px;
+    width: 235px;
+    margin-top: 10px;
+    cursor: pointer;
+
+  }
+
+  .pic-div2 {
+    width: 280px;
+    height: 260px;
+    margin-top: 10px;
+    cursor: pointer;
+
+  }
+
+  .pic-div3 {
+    height: 260px;
+    width: 235px;
+    cursor: pointer;
+
+  }
+
+  .pic-div4 {
+    height: 260px;
+    width: 240px;
+    cursor: pointer;
+
+  }
+
+  /* 4pic div ends here */
+
+  /* Fabric div starts here */
+
+  /* Fabric div ends here */
+
+  .z-fab-main {
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+
+  .img-swiper-div {
+    width: 50% !important;
+  }
+
+  .z {
+    z-index: 3;
+    width: 50%;
+  }
+
+  .z2 {
+    z-index: 3;
+    width: 50%;
+    margin-left: -240px;
+  }
+
+  .fabric-imgBig {
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 100% 0, 100% 11%, 97% 11%, 100% 15%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+    height: 400px;
+    width: 487px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .fabric-imgBig2 {
+    clip-path: polygon(3% 12%, 0 12%, 0 0, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0 17%);
+    height: 400px;
+    width: 487px !important;
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin-left: -300px; */
+  }
+
+
+
+  .fab-Pdiv {
+    /* Main parent div for swiper */
+    width: 100% !important;
+    display: flex;
+  }
+
+  .fab-head {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  .fab-content {
+    position: relative;
+    width: 100%;
+  }
+
+  .tagonimg {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    position: absolute;
+    bottom: 360px;
+    left: 10px;
+  }
+
+  .tagonimg1 {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    position: absolute;
+    bottom: 360px;
+    left: 30px;
+  }
+
+  .tagonimg2 {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    width: 52px;
+    position: absolute;
+    bottom: 360px;
+    right: 10px;
+  }
+
+  .tagonimg3 {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    width: 52px;
+    position: absolute;
+    bottom: 360px;
+    right: 30px;
+  }
+
+
+  .fabric-img1 {
+    position: relative;
+    display: inline-block;
+    height: 450px;
+    width: 300px;
+  }
+
+  .fabric-img1 .fabric-imgsm {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+
+  }
+
+  .fabric-img1:hover .fabric-imgsm {
+    display: inline;
+  }
+
+  .fabric-size {
+    width: 250px !important;
+    height: 430px !important;
+  }
+
+  .fab-btn {
+    width: 250px;
+    height: 30px;
+    color: black;
+    border: none;
+    background-color: #f1f1f1 !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .fab-btn:hover {
+    background-color: #2d2b2a !important;
+    color: white;
+  }
+
+  .fab-disc1 {
+    margin-left: 27px;
+  }
+
+  .suit-title {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+
+  }
+
+  .suit-disc {
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+
+  }
+
+  .suit-disc1 {
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+    margin-right: 48px;
+
+  }
+
+  .suit-price {
+    display: flex;
+    justify-content: start;
+    font-size: 13.8px;
+
+  }
+
+  .fabric-swiper-div {
+    width: 50% !important;
+  }
+
+
+  .swiper {
+    width: 95%;
+    height: 100% !important;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    gap: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70% !important;
+    width: 100% !important;
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .support-div {
+    height: 200px;
+    background-color: #dfd8d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 15px;
+    margin-top: 10px !important;
+
+  }
+
+  .ship-charge-head {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .ship-charge-price {
+    font-size: 14px
+  }
+
+  .shipping-icon {
+    width: 40px;
+  }
+
+  .shipping-icon2 {
+    width: 35px;
+    cursor: pointer;
+
+  }
+
+  .shipping-charges {
+    justify-content: flex-start !important;
+    margin-left: -120px;
+  }
+
+  .full-day {
+    justify-content: flex-start !important;
+    margin-left: -67px;
+  }
+
+  .ship-charge2 {
+    margin-left: 5px;
+  }
+
+  .track-order {
+    width: 100%;
+    margin-left: 1.3rem !important;
+  }
+
+  .Subscribe-div {
+    height: 250px;
+  }
+
+  .bfk {
+    /* height: 10px; */
+    width: 100%;
+    margin-left: 5px !important;
+  }
+
+  .bfk-head {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .bfk-para {
+    font-size: 14px;
+  }
+
+  .email-div {
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+  }
+
+  .email {
+    border: 2.3px solid rgba(202, 202, 202, 0.812);
+    height: 43px;
+    width: 330px;
+  }
+
+  .email-btn {
+    height: 43px;
+    width: 130px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .social-icons {
+    width: 20% !important;
+    margin-left: -14px !important;
+    margin-top: 10px !important;
+  }
+
+  .fbicon {
+    width: 35px;
+    border-radius: 5px;
+
+  }
+
+  .fbicon1 {
+    width: 50px;
+  }
+
+  .get-in-touch-p-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .getInTouch {
+    margin-left: 5px;
+  }
+
+  .git-head {
+    letter-spacing: 2px;
+  }
+
+
+  .address-head {
+    font-size: 14px;
+    font-weight: 700;
+
+  }
+
+  .address-para {
+    font-size: 13px;
+    width: 250px;
+  }
+
+  .OurCompany {
+    margin-left: 5px;
+  }
+
+  .c-support {
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 15px;
+
+  }
+
+  .S-H {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+
+  .Help {
+    margin-left: 5px;
+    margin-top: 15px;
+
+  }
+
+  .last-row {
+    height: 100px !important;
+    align-items: center !important;
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 30px;
+    height: 300px !important;
+    gap: 5px;
+  }
+
+  .checkouts {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .card-icon {
+    width: 350px;
+  }
+
+  .secured {
+    margin-left: -335px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .secured-head {
+    font-size: 13px;
+  }
+
+  .encrypt-icon {
+    width: 120px;
+  }
+
+  .khaadi-logo-sm {
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    margin-left: 5px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 450px;
+  }
+
+/* Track page css */
+
+.content{
+  margin-top: 20px;
+  height: 250px;
+}
+.track-head{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+}
+.track-desc{
+  font-size: 14px;
+}
+.track-input{
+  margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.track-input-sec{
+  border: 2.3px solid rgba(202, 202, 202, 0.812);
+    height: 50px;
+    width: 320px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.track-btn{
+  height: 50px;
+    width: 130px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:501px) and (max-width:768px)  {
+
+
+
+  .body {
+    overflow-x: hidden;
+  }
+  
+  /* Top Bar Strats here */
+  
+  .top-bar {
+    /* background-color: #bca2d1; */
+    background-color: #f4643c !important;
+    height: 25px;
+  }
+  
+  .topbar-text {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .shop-now {
+    /* background-color: #bca2d1; */
+    font-size: 13px;
+    cursor: pointer;
+    width: 100%;
+  
+  }
+  
+  /* Top Bar Ends Here */
+  
+  /* Navbar starts here */
+
+  .nav-bar {
+    height: 60px;
+  }
+  
+  .khaadi-logo {
+    cursor: pointer;
+    height: 45px;
+    margin-top: -15px;
+  
+  }
+  
+  .sale-li {
+    font-size: 13.5px;
+    font-weight: 400;
+    gap: 0px;
+    margin-top: -20px !important;
+  }
+  .sale-div-sm{
+  display: flex;
+  align-items: flex-start;
+  margin-top: -15px !important;
+  }
+  .sale-1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .sale-2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  
+  }
+  
+  .sale-3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  
+  }
+  
+  .sale-4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  
+  }
+  
+  .sale-5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  
+  }
+  
+  .truck-icon {
+    width: 30px;
+    cursor: pointer;
+  
+  }
+  
+  .bag-icon {
+    width: 20px;
+    cursor: pointer;
+  
+  }
+  
+  .acc-icon {
+    font-size: 22px;
+    cursor: pointer;
+  
+  }
+  
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  
+  .nav-track-t {
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  .nav-track-t-span{
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none !important;
+  
+  }
+  
+  .track-li {
+    margin-top: 1px !important;
+    margin-left: -60px;
+  }
+  
+  /* The sidebar menu */
+  .sidebar {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+    display: none;
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    display: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+    display: none;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 0px 20px;
+    border: none;
+    display: none;
+    display: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+    display: none;
+  
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    /* If you want a transition effect */
+    padding: 0px;
+    display: none;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {
+      padding-top: 15px;
+    }
+  
+    .sidebar a {
+      font-size: 18px;
+    }
+  }
+  
+  /* Navbar ends here */
+  
+  /* Poster swiper div starts here */
+  .poster-slider {
+    cursor: pointer;
+  
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide .poster-slider-sm {
+    display: none !important;
+  }
+  
+  /* Poster swiper div ends here */
+  
+  /* 4pic div starts here */
+  .pic-div {
+    justify-content: space-evenly;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px !important;
+  
+  }
+  
+  .pic-div1 {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+  
+  }
+  
+  .pic-div2 {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+  
+  }
+  
+  .pic-div3 {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+  
+  }
+  
+  .pic-div4 {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+  
+  }
+  
+  /* 4pic div ends here */
+  
+  /* Fabric div starts here */
+  .z-fab-main {
+    display: flex;
+    height: auto;
+    width: 100%;
+  }
+  
+  .img-swiper-div {
+    width: 50% !important;
+  }
+  
+  .z {
+    z-index: 3;
+    width: 50%;
+  }
+  
+  
+  .fabric-imgBig {
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 100% 0, 100% 11%, 97% 11%, 100% 15%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+    height: 425px;
+    width: 385px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .fabric-imgBig2 {
+    clip-path: polygon(3% 12%, 0 12%, 0 0, 85% 0%, 100% 0, 100% 15%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0 17%);
+    height: 425px;
+    width: 385px !important;
+    cursor: pointer;
+    margin-left: -11px !important;
+  }
+  
+  .fabric-imgBig3 {
+    height: 425px;
+    width: 385px;
+    cursor: pointer;
+  }
+  
+  .fab-Pdiv {
+    height: 425px !important;
+    width: 385px !important;
+    display: flex;
+  }
+  
+  .fab-head {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 24px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  .fab-content {
+    position: relative;
+  }
+  
+  .tagonimg {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    position: absolute;
+    bottom: 420px;
+    left: 10px;
+  }
+  
+  .tagonimg2 {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    width: 52px;
+    position: absolute;
+    bottom: 420px;
+    right: 10px;
+  }
+  
+  .tagonimg1 {
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    width: 35px;
+    position: absolute;
+    bottom: 420px;
+    left: 10px;
+  }
+  
+  .tagonimg3 {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    width: 52px;
+    position: absolute;
+    bottom: 420px;
+    right: 10px;
+  }
+  
+  
+  .fabric-img1 {
+    position: relative;
+    display: inline-block;
+    height: 450px;
+    width: 200px;
+  }
+  
+  .fabric-img1 .fabric-imgsm {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+  
+  }
+  
+  .fabric-img1:hover .fabric-imgsm {
+    display: inline;
+  }
+  
+  .fabric-size {
+    width: 150px !important;
+    height: 200px !important;
+  }
+  
+  .fab-btn {
+    width: 180px;
+    height: 30px;
+    color: black;
+    border: none;
+    background-color: #f1f1f1 !important;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  .fab-btn:hover {
+    background-color: #2d2b2a !important;
+    color: white;
+  }
+  
+  .suit-title {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  
+  .suit-disc {
+    font-size: 13.5px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .suit-disc1 {
+    font-size: 13.5px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .suit-price {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13.8px;
+  }
+  
+  .fabric-swiper-div {
+    width: 50% !important;
+  }
+  
+  .swiper {
+    height: 400px !important;
+    width: 300px !important;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88% !important;
+    gap: 105px !important;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 300px !important;
+    height: 320PX !important;
+    object-fit: cover;
+  }
+  
+  .support-div {
+    height: 80px;
+    background-color: #dfd8d8;
+  }
+  
+  .shipping-charges{
+    width: 30% !important;
+    margin-left: -50px !important;
+  }
+  .full-day{
+    width: 30% !important;
+  }
+  .track-order{
+    width: 35% !important;
+
+  }
+  .ship-charge-head {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .ship-charge-price {
+    font-size: 12px
+  }
+  
+  .shipping-icon {
+    width: 40px;
+  }
+  
+  .shipping-icon2 {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .Subscribe-div {
+    height: 130px;
+  }
+  
+  .bfk {
+    /* height: 10px; */
+    width: 425px;
+  }
+  
+  .bfk-head {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .bfk-para {
+    font-size: 14px;
+  }
+  
+  .email-div {
+    margin-left: -0px!important;
+    margin-top: 1.5rem !important;
+  }
+  
+  .email {
+    border: 2.3px solid rgba(202, 202, 202, 0.812);
+    height: 43px;
+    width: 230px;
+  }
+  
+  .email-btn {
+    height: 43px;
+    width: 140px;
+    margin-left: -10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .social-icons {
+    width: 20% !important;
+    /* margin-left: 1rem !important; */
+    margin-left: -15px !important;
+  }
+  
+  .fbicon {
+    width: 35px;
+    border-radius: 5px;
+  
+  }
+  
+  .fbicon1 {
+    width: 50px;
+  }
+  
+  .getInTouch {
+    margin-left: 0px;
+  }
+  
+  .git-head {
+    letter-spacing: 2px;
+  }
+  
+  
+  .address-head {
+    font-size: 14px;
+    font-weight: 700;
+  
+  }
+  
+  .address-para {
+    font-size: 13px;
+    width: 250px;
+  }
+  
+  .c-support {
+    width: 200px;
+  }
+  
+  .S-H {
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+  
+  .Help {
+    margin-left: 50px;
+  }
+  
+  .checkouts {
+    margin-left: -20px;
+  }
+  .secured{
+    margin-left: 700px;
+
+  }
+  .secured-head {
+    font-size: 13px;
+  }
+  
+  .encrypt-icon {
+    width: 120px;
+  }
+  
+  .khaadi-logo-sm {
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    margin-left: -30px;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    margin-top: 35px;
+    width: 600px;
+  }
+  
+  .last-row {
+    height: 100px !important;
+    align-items: center !important;
+  }
+  
+  
+  /* Track page css */
+  
+  .content{
+    margin-top: 20px;
+    height: 250px;
+  }
+  .track-head{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+  }
+  .track-desc{
+    font-size: 14px;
+  }
+  .track-input{
+    margin-left: 10px !important;
+      margin-top: 10px !important;
+  }
+  .track-input-sec{
+    border: 2.3px solid rgba(202, 202, 202, 0.812);
+      height: 50px;
+      width: 550px;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .track-btn{
+    height: 50px;
+      width: 130px;
+      margin-left: -10px;
+      background-color: black;
+      color: white;
+      border: none;
+      font-size: 15px;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+  
+
+}
+
+
+/* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+  /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+    /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+      /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+        /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+          /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+            /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+              /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                  /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                    /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                      /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                        /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+                          /* kjbyuuygbyugugbuibgiugniuguigugnuygnugogug ougiougouigouigoiunhoiu */
+
+
+                          /* The navigation menu */
+/* The navigation menu */
+
+/* .navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.subnav {
+  position: relative;
+  color: black;
+}
+
+.subnav .subnavbtn {
+  font-size: 13.5px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+
+.sn-content1{
+  display: none;
+  position: absolute;
+  left: 400px;
+  top: 40px;
+  margin-top: 10px;
+  background-color: white;
+  color:black;
+  width: 700px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+  
+}
+.sn-content2{
+  display: none;
+  position: absolute;
+  left: 600px;
+  top: 40px;
+
+  margin-top: 10px;
+  background-color: white;
+  width: 700px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+.sn-content3{
+  display: none;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+.sn-content4{
+  display: none;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+.sn-content5{
+  display: none;
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 350px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.subnav:hover .sn-content3 {
+  display: block;
+  display: flex;
+  justify-content: start;
+  gap: 100px !important;
+  align-items: flex-start;
+  text-align: center;
+  
+}
+
+.subnav:hover .sn-content4 {
+  display: block;
+  display: flex;
+  justify-content: start;
+  gap: 100px !important;
+  align-items: flex-start;
+  text-align: center;
+  
+}
+
+.flat-off{
+  width: 200px;
+  height: 200px;
+}
+
+.flat-off2{
+  width: 200px;
+  height: 200px;
+  margin-left: -130px !important;
+  margin-top: 30px;
+}
+.flat-off3{
+  width: 200px;
+  height: 200px;
+  margin-left: -130px !important;
+  margin-top: 30px;
+}
+
+.flat-off4{
+  width: 200px;
+  height: 200px;
+  margin-left: -130px !important;
+  margin-top: -80px;
+}
+.flat-text{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fabric-drpdn-ul{
+  display: flex;
+  gap: 100px !important;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 800px !important;
+  
+
+}
+.fabric-drpdn-ul-head{
+  font-size: 13.5px !important;
+  color: black !important;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+
+
+}
+.fabric-drpdn-ul-list{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  text-align: left;
+font-size: 12px;
+width: 100%;
+} */
+
+
+.nav-bar{
+  height: 80px;
+}
+.nav-ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.subnav {
+  position: relative;
+  color: black;
+  
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  /* top: 100%; */
+  left: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+/* .subnav .subnavbtn {
+  font-size: 13.5px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+} */
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  /* background-color: red; */
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+
+  
+}
+
+
+
+
+.sn-content1{
+  display: none;
+  position: absolute;
+  left: -50px;
+  top: 12.3px;
+  margin-top: 10px;
+  background-color: white;
+  color:black;
+  width: 700px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+  
+}
+.flat-off-div1{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.flat-off-div2{
+  position: absolute;
+  top: 15px;
+  left: 250px;
+}
+.flat-off-div3{
+  position: absolute;
+  right: 15px;
+  bottom: 2px;
+}
+.sn-content2{
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 12.3px;
+  margin-top: 10px;
+  background-color: white;
+  color:black;
+  width: 700px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+.flat-off-div4{
+  position: absolute;
+  left:10px;
+  bottom: 2px;
+}
+.flat-off-div5{
+  position: absolute;
+  right: 250px;
+  top: 15px;
+}
+.flat-off-div6{
+  position: absolute;
+  right: 10px;
+  bottom: 2px;
+}
+.sn-content3{
+  display: none;
+  position: absolute;
+  left: -300px;
+  top: 12.3px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+
+.sn-content4{
+  display: none;
+  position: absolute;
+  left: -350px;
+  top: 12.3px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 250px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+.sn-content5{
+  display: none;
+  position: absolute;
+  left: -500px;
+  top: 12.3px;
+  margin-top: 10px;
+  background-color: white;
+  width: 1000px;
+  height: 350px;
+  gap: 30px;
+  z-index: 1;
+  box-shadow: 0px 5px 4px 2px rgb(236, 236, 236);
+}
+
+.flat-off{
+  width: 200px;
+  height: 200px;
+}
+
+.flat-off2{
+  width: 200px;
+  height: 200px;
+  margin-left:750px !important;
+  margin-top: -230px;
+}
+.flat-off3{
+  width: 200px;
+  height: 200px;
+  margin-left: 750px !important;
+  margin-top: -270px;
+}
+
+.flat-off4{
+  width: 200px;
+  height: 200px;
+  margin-left: 720px !important;
+  margin-top: -400px;
+}
+.flat-text{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fabric-drpdn-ul{
+  display: flex;
+  gap: 100px !important;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 800px !important;
+  
+
+}
+.fabric-drpdn-ul-head{
+  font-size: 13.5px !important;
+  color: black !important;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+
+
+}
+.fabric-drpdn-ul-list{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  text-align: left;
+font-size: 12px;
+width: 100%;
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
